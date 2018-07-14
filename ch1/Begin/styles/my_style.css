@@ -1,0 +1,19 @@
+a:link img, a:visited img {
+	display: none;
+}
+a:hover img, a:active img {
+	display: block;
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+/*
+link visited hover active 都是 a链接的状态。
+link设置a对象在未被访问前的样式表属性
+visited设置a对象在其链接地址已经被访问过的样式表属性
+hover设置对象在鼠标悬停时
+active设置对象在被用户激活时
+
+display规定元素应该生成的框的类型
+*/
